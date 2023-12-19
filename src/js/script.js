@@ -77,7 +77,7 @@ new Chart(document.getElementById("line-chart"), {
     data: {
         labels: [10, 50, 100, 200, 300, 400, 500],
         datasets: [{
-            data: [83, 80, 90, 60, 49, 90, 100],
+            data: [83, 80, 90, 60, 49, 90, 96],
             borderColor: "rgb(89,113,216)",
             backgroundColor: "rgb(89,113,216)",
             pointBackgroundColor: ["white", "white", "white", "white", "white", "white", "white"],
@@ -85,8 +85,12 @@ new Chart(document.getElementById("line-chart"), {
             fill: true
         }
         ]
+    },
+    options: {
+        legend: {
+            display: false
+        }
     }
-
 });
 
 const allRanges = document.querySelectorAll(".left-1-item");

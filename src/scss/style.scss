@@ -413,6 +413,7 @@ margin: 0;
     height: 100%;
 }
 .item1{
+    font-family: MuseoSans-700;
     width: 100%;
     height: 47%;
     margin-bottom: 30px;
@@ -473,7 +474,7 @@ margin: 0;
     margin-left: 20px;
     color: white;
     padding-top: 20px;
-font-family:'Times New Roman', Times, serif;
+   font-family: MuseoSans-500;
  }
  .item3-content2{
     width: 100%; 
@@ -681,7 +682,7 @@ color: $background3;
     padding: 5px 0;
     position: relative;
     transition: all 0.3s ease-in-out;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: MuseoSans-700;
   }
   
   .usd h3:before{
